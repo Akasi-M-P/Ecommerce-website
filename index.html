@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-website</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/9da87e2b4e.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <!-- Main container of the website -->
+    <div class="main-container">
+        <!-- Both header and hero container -->
+        <div class="head_hero-container">
+            <!-- Container for the website logo, links and icons -->
+            <header class="navbar-container">
+                <!-- Container for the website logo-->
+                <div class="logo-container"><img class="logo" src="/assets/images/logo_white.png" alt=""></div>
+                <!-- Container for the navigation links -->
+                <div class="nav_links-container">
+                    <ul>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Container for the navigation icons -->
+                <div class="nav_icons-container">
+                    <i class="fa-regular fa-user icon"></i>
+                    <i class="fa fa-cart-shopping icon"></i>
+                    <i class="fa-solid fa-bars fa-beat icon" onclick="openBurger_menu()"></i>
+                    
+                </div>
+            </header>
+            <!-- Container for the hero message -->
+            <div class="hero_message-container">
+                <h5>New Product Collection</h5>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+    </div>
+        <div class="overlay" id="overlay_menu">
+            <i class="fa-regular fa-rectangle-xmark close-burger"   onclick="closeBurger_menu()"></i>
+            <div class="burger-content">
+                <ul>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+         <script src="./js/burger_menu.js"></script>
+</body>
+</html>

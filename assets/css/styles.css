@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Kanit:wght@500&family=Maven+Pro:wght@500&family=Poppins:wght@100;200;400&family=Raleway:wght@300;400;500&family=Ysabeau&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+       display: none;
+}
+
+
+/*  phone landscape & smaller */
+@media all and (max-width: 480px) {
+    .head_hero-container {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background-image: url("/assets/images/Hero.png");
+    object-fit: inherit;
+    background-size: auto 450px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    .hero_message-container {
+        position: absolute;
+        width: 55%;
+        height: 30%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 25%;
+        top: 40%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero_message-container , h5 {
+        font-family: "Poppins";
+        font-size: 24px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+
+    .hero_message-container button {
+        font-family: "Dosis";
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(18, 20, 20);
+        opacity: 0.8;
+        top: 0;
+    }
+
+    .close-burger {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .burger-content ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .burger-content {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+       
+    }
+
+    .burger-content ul li{
+        list-style: none;
+    }
+
+    .burger-content , ul , a {
+        color: white;
+        text-decoration-line: none;
+        font-size: 24px;
+        font-family: "Poppins";
+    }
+}
+
+@media all and (max-width: 280px) {
+    .hero_message-container , h5 {
+        font-size: 20px;
+    }
+
+    .head_hero-container {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background-image: url("/assets/images/Hero.png");
+    background-size: auto 450px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    .hero_message-container {
+        position: absolute;
+        width: 55%;
+        height: 30%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 25%;
+        top: 40%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .burger-content {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+       
+    }
+}
+
+
+
+/*  tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .head_hero-container {
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        background-image: url("/assets/images/Hero.png");
+        object-fit: inherit;
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+    .hero_message-container {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 30%;
+        top: 40%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero_message-container , h5 {
+        font-family: "Poppins";
+        font-size: 30px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+
+    .hero_message-container button {
+        font-family: "Dosis";
+        font-size: 18px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(18, 20, 20);
+        opacity: 0.8;
+        top: 0;
+    }
+
+    .close-burger {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .burger-content ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .burger-content {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+       
+    }
+
+    .burger-content ul li{
+        list-style: none;
+    }
+
+    .burger-content , ul , a {
+        color: white;
+        text-decoration-line: none;
+        font-size: 24px;
+        font-family: "Poppins";
+    }
+}
+
+
+
+/* tablet landscape */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .head_hero-container {
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        background-image: url("/assets/images/Hero.png");
+        object-fit: inherit;
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+    .hero_message-container {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 30%;
+        top: 40%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero_message-container , h5 {
+        font-family: "Poppins";
+        font-size: 30px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+
+    .hero_message-container button {
+        font-family: "Dosis";
+        font-size: 24px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(18, 20, 20);
+        opacity: 0.8;
+        top: 0;
+    }
+
+    .close-burger {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .burger-content ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .burger-content {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+       
+    }
+
+    .burger-content ul li{
+        list-style: none;
+    }
+
+    .burger-content , ul , a {
+        color: white;
+        text-decoration-line: none;
+        font-size: 24px;
+        font-family: "Poppins";
+    }
+
+}
+
+
+/*  desktop (default grid) */
+@media all and (min-width: 1025px) {
+    .head_hero-container {
+        width: 100%;
+        height: 1050px;
+        margin: auto;
+        background-image: url("/assets/images/Hero.png");
+        object-fit: cover;
+        background-size: 100% 1050px;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+    .hero_message-container {
+        position: absolute;
+        width: 40%;
+        height: 20%;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.7);
+        left: 30%;
+        top: 40%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero_message-container , h5 {
+        font-family: "Poppins";
+        font-size: 34px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+
+    .hero_message-container button {
+        font-family: "Dosis";
+        font-size: 24px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 800px;
+        background-color: rgb(18, 20, 20);
+        opacity: 0.8;
+        top: 0;
+       
+    }
+
+    .close-burger {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        font-size: 35px;
+        color: white;
+    }
+
+    .burger-content ul{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .burger-content {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+       
+    }
+
+    .burger-content ul li{
+        list-style: none;
+    }
+
+    .burger-content , ul , a {
+        color: white;
+        text-decoration-line: none;
+        font-size: 24px;
+        font-family: "Poppins";
+    }
+}

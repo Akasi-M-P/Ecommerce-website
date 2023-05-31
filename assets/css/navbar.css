@@ -1,0 +1,182 @@
+
+
+/*  phone landscape & smaller */
+@media all and (max-width: 480px) {
+    .navbar-container {
+        padding: 2em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .nav_links-container {
+        display: none;
+    }
+
+    .nav_icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav_icons-container .icon {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 280px) {
+    .nav_icons-container .icon {
+        color: white;
+        font-size: 15px;
+    }
+
+    .logo-container .logo {
+        width: 80%;
+        cursor: pointer;
+    }
+}
+
+
+/*  tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .navbar-container {
+        padding: 2em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .logo-container .logo {
+         cursor: pointer;
+    }
+
+
+    .nav_links-container {
+        display: none;
+    }
+
+    .nav_icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav_icons-container .icon {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+
+/* tablet landscape */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .navbar-container {
+        padding: 2em 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+     .logo-container .logo {
+         cursor: pointer;
+    }
+
+
+
+
+    .nav_links-container {
+        display: block;
+    }
+
+     .nav_links-container ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+     }
+
+     .nav_links-container li {
+        list-style: none;
+        
+     }
+
+     .nav_links-container a {
+        color: white;
+        text-decoration-line: none;
+        font-family: "Poppins";
+        font-size: 24px;
+     }
+
+
+    .nav_icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav_icons-container .icon {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+
+
+/*  desktop (default grid) */
+@media all and (min-width: 1025px) {
+    .navbar-container {
+        padding: 2em 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+     .logo-container .logo {
+         cursor: pointer;
+    }
+
+
+    .nav_links-container {
+        display: block;
+    }
+
+     .nav_links-container ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+     }
+
+     .nav_links-container li {
+        list-style: none;
+        
+     }
+
+     .nav_links-container a {
+        color: white;
+        text-decoration-line: none;
+        font-family: "Poppins";
+        font-size: 24px;
+     }
+
+
+    .nav_icons-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav_icons-container .icon {
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
