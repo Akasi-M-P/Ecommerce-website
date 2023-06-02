@@ -416,3 +416,1437 @@
         font-family: "Poppins";
     }
 }
+
+
+
+/* This is the Furniture and Basket collection section */
+
+/*  phone landscape & smaller */
+@media all and (max-width: 480px) {
+
+    .main_furniture_basket-container {
+       margin: 10px;
+       line-height: 50px;
+    }
+
+
+    /* Furniture Collection Styling */
+    .furiture-container {
+        width: 100%;
+        position: relative;
+    }
+
+    .furiture-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .furiture-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .furniture_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    }
+
+
+
+    .furiture-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    /* Basket container Styling */
+    .basket-container {
+        width: 100%;
+        position: relative;
+    }
+
+    .basket-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .basket-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .basket_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    
+       
+    }
+
+    .basket-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+
+    .best-products-header {
+       padding: 2em;
+    }
+
+    .best-products-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 25px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .best-products-item{
+        margin: 1em;
+        position: relative;
+    }
+
+    .best-products-item img {
+        width: 100%;
+    }
+
+    .best-products-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        
+    }
+
+    .best-products h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 55%;
+        left: 42%;
+        
+    }
+
+
+
+    .recent-news-header {
+        padding: 2em;
+    }
+
+    .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 25px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+    .recent-news-item{
+        margin: 1em;
+        position: relative;
+    }
+
+    .recent-news-item img {
+        width: 100%;
+    }
+
+    .recent-news-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        
+    }
+
+    .publish-date {
+        width: 80px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 5px;
+    }
+
+     .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 100px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+
+}
+
+
+@media all and (max-width: 280px) {
+
+    .furiture-container h4 {
+        font-size: 18px;
+    }
+
+    .furniture_collection-btn {
+        font-size: 10px;
+    }
+
+
+    .furiture-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 80px;
+    }
+
+
+    .basket-container h4 {
+        font-size: 18px;
+    }
+
+    .basket_collection-btn {
+        font-size: 10px;
+    }
+
+    .basket-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 80px;
+    }
+
+
+     .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        
+    }
+
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        
+    }
+
+     .publish-date {
+        width: 50px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 3px;
+    }
+
+
+
+    .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 50px;
+        height: 25px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+    
+}
+
+
+/*  tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .main_furniture_basket-container {
+       margin: 20px;
+       line-height: 50px;
+       display: flex;
+       gap: 20px;
+    }
+
+
+    /* Furniture Collection Styling */
+    .furiture-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .furiture-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .furiture-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .furniture_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    }
+
+
+
+    .furiture-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    /* Basket container Styling */
+    .basket-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .basket-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .basket-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .basket_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    
+       
+    }
+
+    .basket-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    .best-products {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+
+    .best-products-header {
+       margin: 2em;
+    }
+
+    .best-products-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .best-products-item{
+        margin: auto;
+        width: 45%;
+        position: relative;
+    }
+
+    .best-products-item img {
+        width: 100%;
+    }
+
+    .best-products-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        
+    }
+
+    .best-products h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 55%;
+        left: 42%;
+        
+    }
+
+    .recent-news {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 50px;
+    }
+
+    .recent-news-header {
+        width: 100%;
+        margin: 1em;
+    }
+
+    .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+    .recent-news-item{
+        width: 47%;
+        position: relative;
+    }
+
+    .recent-news-item img {
+        width: 100%;
+    }
+
+    .recent-news-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        
+    }
+
+    .publish-date {
+        width: 80px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 5px;
+    }
+
+     .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 100px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+}
+
+
+@media all and (width: 360px) {
+
+     .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 28px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+     .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 67%;
+        left: 5%;
+        
+    }
+
+}
+
+
+/* tablet landscape */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .main_furniture_basket-container {
+       margin: 20px;
+       line-height: 50px;
+       display: flex;
+       gap: 20px;
+    }
+
+
+    /* Furniture Collection Styling */
+    .furiture-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .furiture-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .furiture-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .furniture_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    }
+
+
+
+    .furiture-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    /* Basket container Styling */
+    .basket-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .basket-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .basket-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .basket_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    
+       
+    }
+
+    .basket-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    .best-products {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 47px;
+        padding: 1em;
+    }
+
+
+    .best-products-header {
+       margin: 2em;
+    }
+
+    .best-products-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .best-products-item{
+        width: 30%;
+        position: relative;
+    }
+
+    .best-products-item img {
+        width: 100%;
+    }
+
+    .best-products-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        
+    }
+
+    .best-products h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 55%;
+        left: 42%;
+        
+    }
+
+    .recent-news {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 40px;
+        padding: 50px;
+    }
+
+    .recent-news-header {
+        width: 100%;
+        margin: 1em;
+    }
+
+    .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+    .recent-news-item{
+        width: 30%;
+        position: relative;
+    }
+
+    .recent-news-item img {
+        width: 100%;
+    }
+
+    .recent-news-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        
+    }
+
+    .publish-date {
+        width: 80px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 5px;
+    }
+
+     .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 100px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+}
+
+@media all and (min-width: 820px) {
+     .best-products {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding: 1em;
+    }
+
+
+    .best-products-header {
+       margin: 2em;
+    }
+
+    .best-products-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .best-products-item{
+        width: 28%;
+        position: relative;
+    }
+
+    .best-products-item img {
+        width: 100%;
+    }
+
+    .best-products-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        
+    }
+
+    .best-products h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        
+    }
+
+    .recent-news {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 60px;
+        padding: 50px;
+    }
+
+    .recent-news-header {
+        width: 100%;
+        margin: 1em;
+    }
+
+    .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+    .recent-news-item{
+        width: 45%;
+        position: relative;
+    }
+
+    .recent-news-item img {
+        width: 100%;
+    }
+
+    .recent-news-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        
+    }
+
+    .publish-date {
+        width: 80px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 5px;
+    }
+
+     .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 100px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+} 
+
+
+
+
+/*  desktop (default grid) */
+@media all and (min-width: 1025px) {
+    .main_furniture_basket-container {
+       margin: 20px;
+       line-height: 50px;
+       display: flex;
+       gap: 20px;
+    }
+
+
+    /* Furniture Collection Styling */
+    .furiture-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .furiture-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .furiture-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .furniture_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    }
+
+
+
+    .furiture-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    /* Basket container Styling */
+    .basket-container {
+        width: 48%;
+        position: relative;
+        margin: auto;
+    }
+
+    .basket-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .basket-container h4 {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 25px;
+        text-transform: capitalize;
+        position: absolute;
+        top: 33px;
+        left: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .basket_collection-btn {
+        font-family: "Dosis";
+        width: 72px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: absolute;
+        top: 130px;
+        left: 14px;
+       
+    
+       
+    }
+
+    .basket-container svg, line {
+        position: absolute;
+        top: 137px;
+        left: 100px;
+    }
+
+    .best-products {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 33px;
+        padding: 1em;
+    }
+
+
+    .best-products-header {
+       margin: 2em;
+    }
+
+    .best-products-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .best-products-item{
+        width: 23%;
+        position: relative;
+    }
+
+    .best-products-item img {
+        width: 100%;
+    }
+
+    .best-products-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+    }
+
+    .best-products h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        
+    }
+
+    .best-products h3 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: absolute;
+        top: 55%;
+        left: 42%;
+        
+    }
+
+    .recent-news {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 55px;
+        padding: 50px;
+    }
+
+    .recent-news-header {
+        width: 100%;
+        margin: 1em;
+    }
+
+    .recent-news-header h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+
+    .recent-news-item{
+        width: 30%;
+        position: relative;
+    }
+
+    .recent-news-item img {
+        width: 100%;
+    }
+
+    .recent-news-item-title {
+        position: absolute;
+        top: 0;
+        background-color: rgb(10, 8, 8);
+        width: 100%;
+        height: 100%;
+        opacity: 0.05;
+    }
+
+    .recent-news h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: capitalize;
+        color: #0f0f0f;
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        
+    }
+
+    .publish-date {
+        width: 80px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .date-inner-border {
+        border: 1px solid rgb(245, 236, 236);
+        margin: 5px;
+    }
+
+     .recent-news-item-btn {
+        position: absolute;
+        top: 84%;
+        left: 5%;
+        font-family: "Dosis";
+        width: 100px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+        border: 0.5px solid black;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        background-color: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    
+       
+    }
+}
