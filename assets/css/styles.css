@@ -1577,18 +1577,18 @@
 
 
     /* Furniture Collection Styling */
-    .furiture-container {
+    .furniture-container {
         width: 48%;
         position: relative;
         margin: auto;
     }
 
-    .furiture-container img {
+    .furniture-container img {
         width: 100%;
         height: 200px;
     }
 
-    .furiture-container h4 {
+    .furniture-container h4 {
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: 300;
@@ -1625,7 +1625,7 @@
 
 
 
-    .furiture-container svg, line {
+    .furniture-container svg, line {
         position: absolute;
         top: 137px;
         left: 100px;
@@ -1961,6 +1961,7 @@
         width: 100%;
         background-color: #EFEFEF;
         display: flex;
+        flex-wrap: wrap;
     }
 
 
@@ -1968,7 +1969,7 @@
     .left-footer {
         width: 50%;
         margin: auto;
-        padding: 40px 10px;
+        padding: 40px 30px;
     }
 
     .flex-items {
@@ -1990,14 +1991,17 @@
         width: 50%;
         margin: auto;
         padding: 30px 10px;
+        position: relative;
     }
 
     .footer-subscribe {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 24px;
+        position: absolute;
+        top: 0;
     }
 
     .footer-email-input {
@@ -2015,33 +2019,307 @@
         font-size: 14px;
         line-height: 21px;
         padding: 0 11px;
+        position: absolute;
+        bottom: -25px;
     }
 
     .footer-email-input .email-btn {
         width: 10%;
         padding: 11px;
         margin-left: -5px;
-        border: 1px solid #d3d3d3; 
+        border: 1px solid #d3d3d3;
+        position: absolute;
+        right: 19px;
+        bottom: -25px;
     }
 
     .footer-line {
-        margin-top: 50px;
-        width: 92%;
+       display: none;
        
     }
 
-    .footer-copy-rights img {
-        width: 20px;
-        height: 20px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        color: #000000;
+    .footer-copy-rights{
+        display: none;
         
     }
 
+    .tablet-footer-line {
+        display: block;
+        margin-left: 3em;
+        width: 88%;
+        
+    }
+
+
+
+
+    .tablet-footer-copy-rights {
+        display: block;
+        padding: 20px 10px;
+    }
+
+
+    .tablet-hr-copyright {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+
+    .tablet-footer-copy-rights {
+        width: 98%;
+        display: flex;
+        padding: 0 50px;
+    }
+
+    .tablet-footer-copy-rights img {
+        object-fit: contain;
+        width: 3%;
+    }
    
 
 }
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) { 
+    footer {
+        width: 100%;
+        background-color: #EFEFEF;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* Left Footer Styling */
+    .left-footer {
+        width: 50%;
+        margin: auto;
+        padding: 40px 30px;
+    }
+
+    .flex-items {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 20px 0;
+    }
+
+
+
+    /* Right Footer Styling */
+    .right-footer {
+        width: 50%;
+        margin: auto;
+        padding: 30px 10px;
+        position: relative;
+    }
+
+    .footer-subscribe {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+    }
+
+    .footer-email-input {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .footer-email-input input {
+        width: 82%;
+        height: 40px;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0 11px;
+        position: absolute;
+        bottom: -25px;
+    }
+
+    .footer-email-input .email-btn {
+        width: 10%;
+        padding: 11px;
+        margin-left: -5px;
+        border: 1px solid #d3d3d3;
+        position: absolute;
+        right: 19px;
+        bottom: -25px;
+    }
+
+    .footer-line {
+       display: none;
+       
+    }
+
+    .footer-copy-rights{
+        display: none;
+        
+    }
+
+    .tablet-footer-line {
+        display: block;
+        margin-left: 3em;
+        width: 88%;
+        
+    }
+
+
+
+
+    .tablet-footer-copy-rights {
+        display: block;
+        padding: 20px 10px;
+    }
+
+
+    .tablet-hr-copyright {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+
+    .tablet-footer-copy-rights {
+        width: 98%;
+        display: flex;
+        padding: 0 50px;
+    }
+
+    .tablet-footer-copy-rights img {
+        object-fit: contain;
+        width: 3%;
+    }
+   
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    footer {
+        width: 100%;
+        background-color: #EFEFEF;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* Left Footer Styling */
+    .left-footer {
+        width: 50%;
+        margin: auto;
+        padding: 40px 30px;
+    }
+
+    .flex-items {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 20px 0;
+    }
+
+
+
+    /* Right Footer Styling */
+    .right-footer {
+        width: 50%;
+        margin: auto;
+        padding: 30px 10px;
+        position: relative;
+    }
+
+    .footer-subscribe {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        position: absolute;
+        top: 0;
+    }
+
+    .footer-email-input {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .footer-email-input input {
+        width: 82%;
+        height: 40px;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0 11px;
+        position: absolute;
+        bottom: -25px;
+    }
+
+    .footer-email-input .email-btn {
+        width: 10%;
+        padding: 11px;
+        margin-left: -5px;
+        border: 1px solid #d3d3d3;
+        position: absolute;
+        right: 40px;
+        bottom: -25px;
+    }
+
+    .footer-line {
+       display: none;
+       
+    }
+
+    .footer-copy-rights{
+        display: none;
+        
+    }
+
+    .tablet-footer-line {
+        display: block;
+        margin-left: 3em;
+        width: 88%;
+        
+    }
+
+
+
+
+    .tablet-footer-copy-rights {
+        display: block;
+        padding: 20px 10px;
+    }
+
+
+    .tablet-hr-copyright {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+
+    .tablet-footer-copy-rights {
+        width: 98%;
+        display: flex;
+        padding: 0 50px;
+    }
+
+    .tablet-footer-copy-rights img {
+        object-fit: contain;
+        width: 3%;
+    }
+   
+ }
