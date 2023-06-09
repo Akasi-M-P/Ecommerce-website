@@ -2153,7 +2153,7 @@
         margin-left: -5px;
         border: 1px solid #d3d3d3;
         position: absolute;
-        right: 19px;
+        right: 40px;
         bottom: -25px;
     }
 
@@ -2197,12 +2197,12 @@
 
     .tablet-footer-copy-rights img {
         object-fit: contain;
-        width: 3%;
+        width: 2%;
     }
    
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1025px) {
     footer {
         width: 100%;
         background-color: #EFEFEF;
